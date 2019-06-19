@@ -22,8 +22,9 @@ function App() {
 
   return (
     <div className="contenedor">
-      <img className="logo-container" src={logo} alt="breaking bad logo" width="400px" height="400px"/>
+      <img className="logo-container" src={logo} alt="breaking bad logo" width="350px" height="350px"/>
       <Quote quote={quote} />
+      <button onClick={() => consultAPI()}>Nueva Frase</button>
     </div>
   );
 }
