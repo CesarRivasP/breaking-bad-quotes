@@ -1,15 +1,12 @@
 import React from 'react';
 
 
-function Quote({quote}) {
+const Quote = ({quote}) => (
+  <div className="frase">
+    <h1>{quote.quote}</h1>
+    <p>- {quote.author}</p>
+  </div>
+);
 
-
-  return (
-    <div className="frase">
-      <h1>{quote.quote}</h1>
-      <p>- {quote.author}</p>
-    </div>
-  );
-}
 
 export default Quote;
