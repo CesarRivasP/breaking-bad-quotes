@@ -27,7 +27,7 @@ body {
 
 .logo-container{
   display: flex;
-  margin: 0px auto 0px auto;
+  margin: -50px auto 0px auto;
 }
 
 #root {
@@ -35,6 +35,7 @@ body {
 }
 .contenedor {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
